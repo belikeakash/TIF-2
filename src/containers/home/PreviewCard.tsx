@@ -57,7 +57,7 @@ const PreviewCard: React.FC<{
   // console.log('abc', requisitionDetails);
   const {state, setState}:any = useData();
   // console.log('state', state);
-  console.log('pcd', state);
+  // console.log('pcd', state);
   return (
     <Box p="1rem">
       <Box borderRadius="10px" bgColor="gray.100" height="fit-content">

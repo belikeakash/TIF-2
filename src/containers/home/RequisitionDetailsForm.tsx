@@ -41,9 +41,9 @@ const RequisitionDetailsForm: React.FC<{
       gender: Yup.string().required("Gender is required"),
     }),
     onSubmit: () => {
-      console.log('vlu',{values});
+      // console.log('vlu',{values});
       // console.log('jd', state.jobDetails);
-      console.log('satte', state);
+      // console.log('satte', state);
       setState((prevState:any) => ({
         ...prevState,
         requisitionDetails: values,

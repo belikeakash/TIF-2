@@ -36,7 +36,7 @@ const InterviewDetailsForm: React.FC<{
       interviewLanguage: Yup.string().required("Gender is required"),
     }),
     onSubmit: (values) => {
-      console.log({ values });
+      // console.log({ values });
       setState((prevState:any) => ({
         ...prevState,
         interviewSettings: values,

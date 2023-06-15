@@ -34,8 +34,8 @@ const JobDetailsForm: React.FC<{
         jobLocation: Yup.string().required("Job Location is required").typeError('Enter a valid string'),
       }),
       onSubmit: (values) => {
-        console.log('satte', state);
-        console.log({values});
+        // console.log('satte', state);
+        // console.log({values});
         setState((prevState:any) => ({
           ...prevState,
           jobDetails: values,
